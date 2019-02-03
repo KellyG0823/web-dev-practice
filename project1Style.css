@@ -245,3 +245,54 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 0;
     margin-left: 0;
 }
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.img-fluid {
+    height: 70%;
+    width: 70%;
+
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url(img/bg-masthead.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
