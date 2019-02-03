@@ -1,0 +1,160 @@
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.navbar {
+    background-color: #cfd1d2;
+}
+a.btn {
+   background-color: rgb(100, 98, 98);
+   border: solid 2px rgb(100, 98, 98);
+}
+
+a.btn:hover {
+    background-color: black;
+    border: solid 2px black;
+}
+
+header.masthead {
+    background: #343a40 url('img/bg-masthead.jpg') no-repeat center center;
+    position: relative;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+header.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mx-auto {
+    margin-left: auto!important;
+}
+
+.mx-auto {
+    margin-right: auto!important;
+}
+
+.col-xl-9, .col-lg-8, .col-md-10, .col-xl-7, .col-12, .col-md-9, .col-md-3, .col-lg-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lg-8 {
+    flex: 66%;
+    max-width: 66%;
+}
+
+input {
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+
+button, input {
+    margin: 0;
+    font-family: inherit;
+}
+
+form button.btn {
+    background-color: rgb(100, 98, 98);
+    border: solid 2px rgb(100, 98, 98);
+}
+form button.btn:hover {
+    background-color: white;
+    border: solid 2px white;
+    color: black;
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.features-icons {
+    background-color: #cfd1d2;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.icon-screen-desktop, 
+.icon-layers {
+    font-family: 'simple-line-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.text-primary {
+    color: #007bff!important;
+}
+
+.m-auto {
+    margin: auto!important;
+}
+
