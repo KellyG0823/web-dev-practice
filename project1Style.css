@@ -61,7 +61,7 @@ header.container {
     margin-right: auto!important;
 }
 
-.col-xl-9, .col-lg-8, .col-md-10, .col-xl-7, .col-12, .col-md-9, .col-md-3, .col-lg-4 {
+.col-xl-9, .col-lg-8, .col-md-10, .col-xl-7, .col-12, .col-md-9, .col-md-3, .col-lg-4, .col-lg-6 {
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -158,3 +158,90 @@ form button.btn:hover {
     margin: auto!important;
 }
 
+.p-0 {
+    padding: 0!important;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: auto;
+}
+
+p {
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.showcase p {
+    margin-top: 0;
+    display: block;
+    width: 350px; 
+}
+
+.showcase .showcase-text {
+    padding-left: 7rem;
+    text-align: center;
+    margin: auto;
+}
+
+.order-lg-1 {
+    order: 1;
+}
+
+.order-lg-2 {
+    order: 2;
+}
+
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.my-auto {
+    margin-bottom: auto!important;
+    margin-top: auto!important;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
